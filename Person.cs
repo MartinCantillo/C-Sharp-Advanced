@@ -15,5 +15,8 @@ namespace OOP.Person
 
         public WondersOfTheAncientWorld FavoriteAncientWonder;
 
+        public List <Person>Children=new List<Person>();
+        
+
     }
 }
