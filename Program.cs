@@ -32,7 +32,9 @@ internal class Program
 
             Console.WriteLine(item.Name);
         }
-
+        Console.WriteLine("This field");
+        Console.WriteLine($"Sam's first child is {Martin[0].Name}");
+        Console.WriteLine($"Sam's second child is {Martin[1].Name}");
 
         Console.WriteLine(format:
  "{0}'s favorite wonder is {1}. It's integer is {2}.",
@@ -61,7 +63,7 @@ internal class Program
          arg0: gerrierAccount.AccountName,
          arg1: gerrierAccount.Balance * BankAccount.InterestRate);
 
-  Console.WriteLine("------------------------------");
+        Console.WriteLine("------------------------------");
 
 
         Martin.FavoritePrimaryColor = "Red";
