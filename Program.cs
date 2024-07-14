@@ -52,7 +52,7 @@ internal class Program
         Console.WriteLine(format: "{0} earned {1:C} interest.",
  arg0: MartinAccount.AccountName,
  arg1: MartinAccount.Balance * BankAccount.InterestRate);
- Console.WriteLine("------------------------------");
+        Console.WriteLine("------------------------------");
 
         var gerrierAccount = new BankAccount();
         gerrierAccount.AccountName = "Ms. Gerrier";
@@ -60,6 +60,13 @@ internal class Program
         Console.WriteLine(format: "{0} earned {1:C} interest.",
          arg0: gerrierAccount.AccountName,
          arg1: gerrierAccount.Balance * BankAccount.InterestRate);
+
+  Console.WriteLine("------------------------------");
+
+
+        Martin.FavoritePrimaryColor = "Red";
+        Console.WriteLine($"Martin's favorite primary color is {Martin.
+        FavoritePrimaryColor}.");
     }
 
 
